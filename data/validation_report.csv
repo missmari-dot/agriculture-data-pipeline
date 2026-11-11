@@ -1,0 +1,16 @@
+check,description,invalid_rows,status
+Duplicate composite key,Unicité de source_file + record_id,0,PASS
+Invalid farmer age,Âge hors de la plage de contrôle 15-100 ans,0,PASS
+Invalid farm size,Superficie agricole nulle ou négative,0,PASS
+Invalid planted area,Superficie cultivée nulle ou négative,0,PASS
+Invalid yield,Rendement négatif,0,PASS
+Invalid rainfall,Précipitations négatives,0,PASS
+Planted area exceeds farm size,Surface cultivée supérieure à la surface totale,0,PASS
+Sold production exceeds total,Production vendue supérieure à la production totale,0,PASS
+Consumed production exceeds total,Production consommée supérieure à la production totale,0,PASS
+Production balance exceeds tolerance,Dépassement de production supérieur à 1 kg,0,PASS
+Invalid total cost,Présence de coûts négatifs,0,PASS
+Inconsistent total cost,Coût total différent de la somme des coûts,0,PASS
+Inconsistent net income,Revenu net différent du revenu moins les coûts,0,PASS
+Suspicious market distance,Distance au marché supérieure à 1000 km,0,PASS
+Invalid year,Année en dehors de la période attendue,0,PASS

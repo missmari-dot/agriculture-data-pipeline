@@ -1,0 +1,5 @@
+pandas
+pyarrow
+huggingface_hub
+google-cloud-bigquery
+db-dtypes
